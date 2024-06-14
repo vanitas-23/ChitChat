@@ -3,6 +3,7 @@
     margin: 0;
 }
 
+// Mixins for responsive design
 @mixin mobile {
     @media screen and (max-width: 480px) {
         @content;
@@ -21,8 +22,9 @@
     }
 }
 
+// Base styles
 .formContainer {
-    background-color: #a7bcff;
+    background: url("https://static.vecteezy.com/system/resources/previews/004/161/230/original/chat-concept-woman-chatting-with-friends-online-social-networking-chat-video-news-messages-search-friends-illustration-flat-vector.jpg");
     height: 100vh;
     display: flex;
     align-items: center;
@@ -35,13 +37,13 @@
         display: flex;
         flex-direction: column;
         gap: 10px;
+    
         align-items: center;
 
         .logo {
-            color: #5d5b8d;
+            color: #010008;
             font-weight: bold;
             font-size: 24px;
-
         }
 
         .title {
@@ -66,7 +68,7 @@
             }
 
             button {
-                background-color: #7b96ec;
+                background-color: #9461cc;
                 color: white;
                 padding: 10px;
                 font-weight: bold;
@@ -117,13 +119,13 @@
 
         .sidebar {
             flex: 1;
-            background-color: #3e3c61;
+            background-color: #802d99;
             position: relative;
 
             .navbar {
                 display: flex;
                 align-items: center;
-                background-color: #2f2d52;
+                background-color: #8d8ca4;
                 height: 50px;
                 padding: 10px;
                 justify-content: space-between;
@@ -226,6 +228,8 @@
                 align-items: center;
                 justify-content: space-between;
                 padding: 10px;
+               
+
                 color: lightgray;
             }
 
